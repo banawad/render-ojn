@@ -1,4 +1,5 @@
 #include "music.h"
+#include <cstring>
 
 namespace Nx
 {

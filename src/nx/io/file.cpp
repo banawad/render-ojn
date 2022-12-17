@@ -22,7 +22,7 @@ namespace Nx
 
 		void File::Delete(const std::string &path)
 		{
-			unlink(path.c_str());
+			remove(path.c_str());
 		}
 	}
 }

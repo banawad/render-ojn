@@ -11,7 +11,7 @@ build: build/wave_encoder.o build/file.o build/o2jam/music.o \
 	build/io.o build/renderer.o
 	$(CC) build/wave_encoder.o build/file.o build/o2jam/music.o \
 		build/o2jam/music_render.o build/o2jam/ojm.o build/o2jam/ojn.o \
-		build/io.o build/renderer.o lib/fmodex/osx/libfmodex.dylib \
+		build/io.o build/renderer.o lib/fmodex/linux64/libfmodex.so \
 		-lboost_program_options -lboost_date_time -ltag -lmp3lame -lsndfile \
 		-o bin/ojn_renderer
 

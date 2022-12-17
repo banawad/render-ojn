@@ -1,4 +1,5 @@
 #include "wave_encoder.h"
+#include <cstring>
 
 namespace Nx
 {
